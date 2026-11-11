@@ -27,6 +27,7 @@ export interface IBuyer {
 
 export interface IProductListResponse {
   items: IProduct[];
+  totalCount: number;
 }
 
 export interface IOrderResponse {

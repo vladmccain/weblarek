@@ -1,7 +1,7 @@
 // src/components/LarekApi.ts
 
-import { IApi } from '../../../types/index';
-import { IProductListResponse, IOrderRequest, IOrderResponse } from '../../../types/index';
+import { IApi } from '../../types/index';
+import { IProductListResponse, IOrderRequest, IOrderResponse } from '../../types/index';
 
 export class LarekApi {
   private api: IApi;

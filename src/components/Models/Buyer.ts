@@ -1,10 +1,10 @@
-import { TPayment, IBuyer, ValidationError } from '../../../types/index';
+import { TPayment, IBuyer, ValidationError } from '../../types/index';
 
 export class Buyer {
-  payment: TPayment | '' = '';
-  email: string = '';
-  phone: string = '';
-  address: string = '';
+  private payment: TPayment | '' = '';
+  private email: string = '';
+  private phone: string = '';
+  private address: string = '';
 
   setPayment(payment: TPayment): void {
     this.payment = payment;

@@ -1,12 +1,12 @@
 import './scss/styles.scss';
 
 import { apiProducts } from './utils/data';
-import { ProductCatalog } from './components/base/Models/ProductCatalog';
-import { Cart } from './components/base/Models/Cart';
-import { Buyer } from './components/base/Models/Buyer';
+import { ProductCatalog } from './components/Models/ProductCatalog';
+import { Cart } from './components/Models/Cart';
+import { Buyer } from './components/Models/Buyer';
 import { TPayment } from './types/index';
 import { Api } from './components/base/Api';
-import { LarekApi } from './components/base/Models/LarekApi';
+import { LarekApi } from './components/Models/LarekApi';
 import { API_URL } from './utils/constants';
 
 // 1. Проверка класса ProductCatalog
